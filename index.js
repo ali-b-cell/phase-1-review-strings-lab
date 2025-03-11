@@ -1,13 +1,11 @@
 // Write your code on this line!`;
 const currentUser = "Alice";
 
-const welcomeMessage = `Welcome to Flatbook, ${currrentUser}!`;
+const welcomeMessage = `Welcome to flatbook, ${currentUser} !`;
 
-const excitedWelcomeMessage = welcomeMessage. toUpperCase();
+const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
-const shortGreeting = `Welcome,  ${currentUser .slice(0, 1)}`;
-
-module.exports = {currentUser, welcomeMessage, excitedWelcomeMessage, shortGreeting};
+const shortGreetings = `Welcome, ${currentUser.slice(0,1)}!`;
 
 
 
